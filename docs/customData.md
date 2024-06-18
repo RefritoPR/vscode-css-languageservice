@@ -89,12 +89,12 @@ You can also specify 4 additional properties for them:
 - `browsers`: A list of supported browsers. The format is `browserName + version`. For example: `['E10', 'C30', 'FF20']`. Here are all browser names:
   ```
   export let browserNames = {
-    E: 'Edge',
+    ,
     FF: 'Firefox',
-    S: 'Safari',
+  ,
     C: 'Chrome',
-    IE: 'IE',
-    O: 'Opera'
+  
+    
   };
   ```
   The browser compatibility will be rendered at completion and hover. Items that is supported in only one browser are dropped from completion.
